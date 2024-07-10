@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image-map</title>
+    <style>
+        p {
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <p>Click on the Picture to know more about it..</p>
+        <img src="cofee.jpg" alt="cofee" usemap="#cofee" height="300px" width="400px">
+        <map name="cofee">
+            <area shape="circle" coords="92,108,80" href="https://en.wikipedia.org/wiki/Coffee" alt="">
+        </map>
+    </div>
+    <div>
+        <img src="laptop.jpg" alt="workplace" usemap="#work">
+        <map name="work">
+            <area shape="rect" coords="152,74,333,224" href="https://en.wikipedia.org/wiki/Laptop" alt="laptop">
+            <area shape="rect" coords="124,199,150,251" href="https://en.wikipedia.org/wiki/Mobile_phone#Use"
+                alt="mobile">
+                
+        </map>
+    </div>
+
+</body>
+
+</html>
